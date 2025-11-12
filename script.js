@@ -27,16 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (tab === 'gallery') {
             gallery.classList.remove('hidden');
             hennaGallery.classList.add('hidden');
-            photographyTab.classList.add('border-blue-500','text-blue-500');
+            photographyTab.classList.add('border-pink-500','text-pink-500');
             photographyTab.classList.remove('text-gray-600', 'border-transparent');
-            hennaTab.classList.remove('border-blue-500','text-blue-500');
+            hennaTab.classList.remove('border-pink-500','text-pink-500');
             hennaTab.classList.add('text-gray-600', 'border-transparent');
         } else {
             gallery.classList.add('hidden');
             hennaGallery.classList.remove('hidden');
-            photographyTab.classList.remove('border-blue-500','text-blue-500');
+            photographyTab.classList.remove('border-pink-500','text-pink-500');
             photographyTab.classList.add('text-gray-600', 'border-transparent');
-            hennaTab.classList.add('border-blue-500','text-blue-500');
+            hennaTab.classList.add('border-pink-500','text-pink-500');
             hennaTab.classList.remove('text-gray-600', 'border-transparent');
         }
     };
