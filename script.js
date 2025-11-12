@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevImage = document.getElementById('prev-image');
     const nextImage = document.getElementById('next-image');
 
-    const galleryImages = document.querySelectorAll('#gallery img');
+    const galleryImages = document.querySelectorAll('#gallery img, #henna-gallery img');
     const imageUrls = Array.from(galleryImages).map(img => img.src);
     let currentImageIndex = 0;
 

@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasnim Jahan - Photography</title>
+    <title>Tasnim Jahan - Portfolio</title>
     <script src="https://cdn.tailwindcss.com/3.4.3"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-white">
 
     <!-- Header -->
-    <header class="bg-white shadow-md">
+    <header class="bg-white">
         <div class="container mx-auto px-4 py-6 flex justify-between items-center">
             <h1 class="text-2xl font-bold text-gray-800">Tasnim Jahan</h1>
             <nav class="hidden md:flex space-x-4">
                 <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
-                <a href="#gallery" class="text-gray-600 hover:text-gray-800">Gallery</a>
+                <a href="#gallery" class="text-gray-600 hover:text-gray-800">Photography</a>
+                <a href="#henna-gallery" class="text-gray-600 hover:text-gray-800">Henna Arts</a>
                 <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-gray-800">
@@ -26,13 +27,14 @@
         </div>
         <div id="mobile-menu" class="hidden md:hidden">
             <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">About</a>
-            <a href="#gallery" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Gallery</a>
+            <a href="#gallery" class="block px-4 py-2 text-gray-600 hover:bg-ray-200">Photography</a>
+            <a href="#henna-gallery" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Henna Arts</a>
             <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Contact</a>
         </div>
     </header>
 
     <!-- About Me Section -->
-    <section id="about" class="py-20">
+    <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">About Me</h2>
             <div class="flex flex-col md:flex-row items-center">
@@ -40,132 +42,180 @@
                     <img src="images/tasnim.jpg" alt="Tasnim Jahan" class="rounded-full mx-auto w-48 h-48 object-cover">
                 </div>
                 <div class="md:w-2/3 text-center md:text-left">
-                    <p class="text-lg text-gray-700 mb-4">My name is Tasnim Jahan. I am a passionate photographer with a love for capturing moments that tell a story. My journey in photography started as a hobby and has grown into a deep-seated passion. I specialize in portrait and landscape photography, always seeking to find the beauty in the everyday.</p>
+                    <p class="text-lg text-gray-700 mb-4">My name is Tasnim Jahan. I am a passionate photographer with a love for capturing moments that tell a story. My journey in photography started as a hobby and has grown into a deep-seated passion. I specialize in portrait and landscape photography, always seeking to find the beauty in the everyday. I am also a henna artist and I love to create beautiful designs.</p>
                     <p class="text-lg text-gray-700">This portfolio is a collection of my favorite work. I hope you enjoy it.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="py-20 bg-gray-200">
+    <!-- Photography Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Gallery</h2>
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Photography</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/20231227_142544.jpg" alt="Photo 1" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/20231227_142544.jpg" alt="Photo 1" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1629652587652.jpg" alt="Photo 2" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1629652587652.jpg" alt="Photo 2" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1629652594053.jpg" alt="Photo 3" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1629652594053.jpg" alt="Photo 3" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1729320276257.jpg" alt="Photo 4" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1729320276257.jpg" alt="Photo 4" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713290395.jpg" alt="Photo 5" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713290395.jpg" alt="Photo 5" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713335280.jpg" alt="Photo 6" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713335280.jpg" alt="Photo 6" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713379784.jpg" alt="Photo 7" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713379784.jpg" alt="Photo 7" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713411820.jpg" alt="Photo 8" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713411820.jpg" alt="Photo 8" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713421738.jpg" alt="Photo 9" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713421738.jpg" alt="Photo 9" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713442972.jpg" alt="Photo 10" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713442972.jpg" alt="Photo 10" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713606365.jpg" alt="Photo 11" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713606365.jpg" alt="Photo 11" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/FB_IMG_1762713632209.jpg" alt="Photo 12" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/FB_IMG_1762713632209.jpg" alt="Photo 12" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20210308-WA0041.jpg" alt="Photo 13" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20210308-WA0041.jpg" alt="Photo 13" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20220213-WA0000.jpg" alt="Photo 14" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20220213-WA0000.jpg" alt="Photo 14" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0004.jpg" alt="Photo 15" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0004.jpg" alt="Photo 15" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0005.jpg" alt="Photo 16" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0005.jpg" alt="Photo 16" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0006.jpg" alt="Photo 17" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0006.jpg" alt="Photo 17" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0007.jpg" alt="Photo 18" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0007.jpg" alt="Photo 18" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0008.jpg" alt="Photo 19" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0008.jpg" alt="Photo 19" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0009.jpg" alt="Photo 20" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0009.jpg" alt="Photo 20" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0010.jpg" alt="Photo 21" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0010.jpg" alt="Photo 21" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240102-WA0012.jpg" alt="Photo 22" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240102-WA0012.jpg" alt="Photo 22" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240325-WA0032.jpg" alt="Photo 23" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240325-WA0032.jpg" alt="Photo 23" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240325-WA0033.jpg" alt="Photo 24" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240325-WA0033.jpg" alt="Photo 24" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20240325-WA0034.jpg" alt="Photo 25" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20240325-WA0034.jpg" alt="Photo 25" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20251110-WA0010.jpg" alt="Photo 26" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20251110-WA0010.jpg" alt="Photo 26" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20251110-WA0012.jpg" alt="Photo 27" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20251110-WA0012.jpg" alt="Photo 27" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20251110-WA0014.jpg" alt="Photo 28" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20251110-WA0014.jpg" alt="Photo 28" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG-20251110-WA0016.jpg" alt="Photo 29" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG-20251110-WA0016.jpg" alt="Photo 29" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20231228_080740.jpg" alt="Photo 30" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20231228_080740.jpg" alt="Photo 30" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20231228_081636.jpg" alt="Photo 31" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20231228_081636.jpg" alt="Photo 31" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20240205_171400.jpg" alt="Photo 32" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20240205_171400.jpg" alt="Photo 32" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20240226_171008.jpg" alt="Photo 33" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20240226_171008.jpg" alt="Photo 33" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20240226_172728.jpg" alt="Photo 34" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20240226_172728.jpg" alt="Photo 34" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_20241019_124633.jpg" alt="Photo 35" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_20241019_124633.jpg" alt="Photo 35" class="w-full h-64 object-cover cursor-pointer">
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="images/IMG_9004.PNG" alt="Photo 36" class="w-full h-64 object-cover cursor-pointer">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/photography/IMG_9004.PNG" alt="Photo 36" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Henna Arts Gallery Section -->
+    <section id="henna-gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Henna Arts</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953412396.jpg" alt="Henna 1" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953419111.jpg" alt="Henna 2" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953423601.jpg" alt="Henna 3" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953437210.jpg" alt="Henna 4" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953446338.jpg" alt="Henna 5" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953450748.jpg" alt="Henna 6" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953462008.jpg" alt="Henna 7" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953464367.jpg" alt="Henna 8" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953467210.jpg" alt="Henna 9" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953469412.jpg" alt="Henna 10" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953471670.jpg" alt="Henna 11" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953474190.jpg" alt="Henna 12" class="w-full h-64 object-cover cursor-pointer">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                    <img src="images/henna/FB_IMG_1762953479540.jpg" alt="Henna 13" class="w-full h-64 object-cover cursor-pointer">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Me</h2>
             <p class="text-lg text-center text-gray-700 mb-8">Feel free to reach out to me for any inquiries or collaborations.</p>
