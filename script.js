@@ -13,6 +13,42 @@ document.addEventListener('DOMContentLoaded', () => {
         emailLink.setAttribute('href', 'mailto:' + user + '@' + domain);
     }
 
+    // Tab functionality
+    const photographyTab = document.getElementById('photography-tab');
+    const hennaTab = document.getElementById('henna-tab');
+    const gallery = document.getElementById('gallery');
+    const hennaGallery = document.getElementById('henna-gallery');
+    const photographyNav = document.getElementById('photography-nav');
+    const hennaNav = document.getElementById('henna-nav');
+    const mobilePhotographyNav = document.getElementById('mobile-photography-nav');
+    const mobileHennaNav = document.getElementById('mobile-henna-nav');
+
+    const showTab = (tab) => {
+        if (tab === 'gallery') {
+            gallery.classList.remove('hidden');
+            hennaGallery.classList.add('hidden');
+            photographyTab.classList.add('border-gray-800','text-gray-800');
+            photographyTab.classList.remove('text-gray-600');
+            hennaTab.classList.remove('border-gray-800','text-gray-800');
+            hennaTab.classList.add('text-gray-600');
+        } else {
+            gallery.classList.add('hidden');
+            hennaGallery.classList.remove('hidden');
+            photographyTab.classList.remove('border-gray-800','text-gray-800');
+            photographyTab.classList.add('text-gray-600');
+            hennaTab.classList.add('border-gray-800','text-gray-800');
+            hennaTab.classList.remove('text-gray-600');
+        }
+    };
+
+    photographyTab.addEventListener('click', () => showTab('gallery'));
+    hennaTab.addEventListener('click', () => showTab('henna-gallery'));
+    photographyNav.addEventListener('click', () => showTab('gallery'));
+    hennaNav.addEventListener('click', () => showTab('henna-gallery'));
+    mobilePhotographyNav.addEventListener('click', () => showTab('gallery'));
+    mobileHennaNav.addEventListener('click', () => showTab('henna-gallery'));
+
+
     // Modal functionality
     const imageModal = document.getElementById('image-modal');
     const modalImage = document.getElementById('modal-image');

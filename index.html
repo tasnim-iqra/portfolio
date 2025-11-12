@@ -15,8 +15,8 @@
             <h1 class="text-2xl font-bold text-gray-800">Tasnim Jahan</h1>
             <nav class="hidden md:flex space-x-4">
                 <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
-                <a href="#gallery" class="text-gray-600 hover:text-gray-800">Photography</a>
-                <a href="#henna-gallery" class="text-gray-600 hover:text-gray-800">Henna Arts</a>
+                <a href="#gallery" id="photography-nav" class="text-gray-600 hover:text-gray-800">Photography</a>
+                <a href="#henna-gallery" id="henna-nav" class="text-gray-600 hover:text-gray-800">Henna Arts</a>
                 <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-gray-800">
@@ -27,8 +27,8 @@
         </div>
         <div id="mobile-menu" class="hidden md:hidden">
             <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">About</a>
-            <a href="#gallery" class="block px-4 py-2 text-gray-600 hover:bg-ray-200">Photography</a>
-            <a href="#henna-gallery" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Henna Arts</a>
+            <a href="#gallery" id="mobile-photography-nav" class="block px-4 py-2 text-gray-600 hover:bg-ray-200">Photography</a>
+            <a href="#henna-gallery" id="mobile-henna-nav" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Henna Arts</a>
             <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Contact</a>
         </div>
     </header>
@@ -49,9 +49,18 @@
         </div>
     </section>
 
-    <!-- Photography Gallery Section -->
-    <section id="gallery" class="py-20 bg-white">
-        <div class="container mx-auto px-4">
+    <!-- Tabs -->
+    <div class="container mx-auto px-4 py-6">
+        <div class="flex justify-center border-b">
+            <button id="photography-tab" class="px-4 py-2 text-gray-800 font-bold border-b-2 border-gray-800">Photography</button>
+            <button id="henna-tab" class="px-4 py-2 text-gray-600 font-bold">Henna Arts</button>
+        </div>
+    </div>
+
+    <!-- Tab Content -->
+    <div id="tab-content" class="container mx-auto px-4">
+        <!-- Photography Gallery Section -->
+        <section id="gallery" class="py-20 bg-white">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Photography</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <div class="bg-white rounded-lg overflow-hidden shadow-sm">
@@ -163,12 +172,10 @@
                     <img src="images/photography/IMG_9004.PNG" alt="Photo 36" class="w-full h-64 object-cover cursor-pointer">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Henna Arts Gallery Section -->
-    <section id="henna-gallery" class="py-20 bg-white">
-        <div class="container mx-auto px-4">
+        <!-- Henna Arts Gallery Section -->
+        <section id="henna-gallery" class="py-20 bg-white hidden">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Henna Arts</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <div class="bg-white rounded-lg overflow-hidden shadow-sm">
@@ -211,8 +218,8 @@
                     <img src="images/henna/FB_IMG_1762953479540.jpg" alt="Henna 13" class="w-full h-64 object-cover cursor-pointer">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
